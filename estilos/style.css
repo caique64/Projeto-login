@@ -40,8 +40,8 @@ section#login{
     overflow: hidden;
 
     background-color: white;
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.442);
 
@@ -73,6 +73,57 @@ section#login div#formulario{
 }
 
 a{
+    padding-top: 5px;
     text-decoration: none;
-    c
+    font-size: small;
+    display: inline-block;
+    letter-spacing: .6px;
+}
+
+section#login > div#formulario > form >div#cu{
+    text-align: center;
+    padding-top: 18%;
+}
+
+section#login > div#formulario > form > div{
+    padding-top: 23px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+div.campo > i{
+    color: #5f2c82;
+    font-size: 2em;
+    width: 40px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+div.campo > input{
+    width: 55vw;
+    height: 8vh;
+    padding-left: 1em;
+    border: none;
+    box-shadow: 0px 1px 0px #602c8290;
+}
+
+form > input[type=submit]{
+    font-size: 1em;
+    width: 100%;
+    height: 2em;
+    border: none;
+    background-color: #5f2c82;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+form > input#bombril{
+    background-color: white;
+    color: #5f2c82;
+    font-size: large;
+    box-shadow: -0px 1px 0px #5f2c82;
 }
