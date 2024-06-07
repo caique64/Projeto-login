@@ -85,7 +85,7 @@ a{
 
 section#login > div#formulario > form >div#cu{
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 section#login > div#formulario > form > div{
@@ -116,12 +116,13 @@ div.campo > input{
 form > input[type=submit]{
     font-size: 1em;
     width: 100%;
-    height: 2em;
+    height: 2.5em;
     border: none;
     background-color: #5f2c82;
     color: white;
     font-size: larger;
     cursor: pointer;
+    margin-top: 8px;
 }
 
 form > input#bombril{
