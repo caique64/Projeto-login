@@ -35,7 +35,7 @@ main{
 }
 
 section#login{
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -69,9 +69,10 @@ section#login > div#imagem{
     box-shadow: 0px 0px 35px rgba(128, 128, 128, 0.675);
 }
 
-section#login div#formulario{
+section#login > div#formulario{
     display: block;
     padding: 10px;
+    overflow-wrap: break-word;
 }
 
 a{
@@ -129,3 +130,4 @@ form > input#bombril{
     font-size: large;
     box-shadow: -0px 1px 0px #5f2c82;
 }
+
